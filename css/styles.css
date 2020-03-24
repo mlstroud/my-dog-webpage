@@ -2,8 +2,20 @@ ul {
   list-style-type: none;
 }
 
-body{
+.original {
   background-color: wheat; 
+  line-height: 30px;
+}
+
+.dark {
+  background-color: darkslategray;
+  color: white;
+  line-height: 30px;
+}
+
+.light {
+  background-color: white;
+  color: black;
   line-height: 30px;
 }
 
@@ -15,8 +27,3 @@ h2, h1 {
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/* h1 { */
-  /* font-style: italic; */
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-/* } */
